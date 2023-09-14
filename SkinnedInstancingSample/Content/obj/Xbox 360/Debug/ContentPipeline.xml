@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Graphics="Microsoft.Xna.Framework.Graphics" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Fonts\Font.spritefont</Source>
+      <Name>Fonts\Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Fonts\Font.xnb</Output>
+      <Time>2009-03-09T02:32:01.758-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SkinnedModelInstancing.fx</Source>
+      <Name>SkinnedModelInstancing</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\SkinnedModelInstancing.xnb</Output>
+      <Time>2009-03-11T03:35:38.912567-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\dwarf-lod1.X</Source>
+      <Name>Models\dwarf-lod1</Name>
+      <Importer>XImporter</Importer>
+      <Processor>InstancedSkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\dwarf-lod1.xnb</Output>
+      <Time>2007-03-29T23:47:02-04:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Models\dwarf-lod1_0.xml</Key>
+        <Value>2009-03-17T12:17:38.962-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\HEAD02_color_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\SkinnedModelInstancing.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\HEAD01_color_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\HEAD03_color_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\BODY01_color_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\LEG01_color_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\LEG02_color_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\LEG03_color_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\BODY02_color_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\BODY03_color_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Arena\arena-final.x</Source>
+      <Name>Arena\arena-final</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\arena-final.xnb</Output>
+      <Time>2009-03-09T01:54:16.317-04:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Arena\arena-final_0.xml</Key>
+        <Value>2009-03-17T12:18:16.021-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\concrete_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\Terrain_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\Sidepanels_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\broken_concrete_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\concrete2_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\Doorway_0.xnb</Request>
+      <Request>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\Stones_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\dwarf-lod1.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Models\dwarf-lod1_0.xml</Output>
+      <Time>2007-03-29T23:47:02-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\HEAD02_color.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\HEAD02_color_0.xnb</Output>
+      <Time>2009-03-09T01:54:34.978-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\HEAD01_color.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\HEAD01_color_0.xnb</Output>
+      <Time>2009-03-09T01:54:34.559-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\HEAD03_color.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\HEAD03_color_0.xnb</Output>
+      <Time>2009-03-09T01:54:35.85-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\BODY01_color.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\BODY01_color_0.xnb</Output>
+      <Time>2009-03-09T01:54:20.372-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\LEG01_color.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\LEG01_color_0.xnb</Output>
+      <Time>2009-03-09T01:54:37.583-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\LEG02_color.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\LEG02_color_0.xnb</Output>
+      <Time>2009-03-09T01:54:38.523-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\LEG03_color.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\LEG03_color_0.xnb</Output>
+      <Time>2009-03-09T01:54:39.222-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\BODY02_color.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\BODY02_color_0.xnb</Output>
+      <Time>2009-03-09T01:54:21.162-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\BODY03_color.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Models\BODY03_color_0.xnb</Output>
+      <Time>2009-03-09T01:54:22.023-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Arena\arena-final.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Arena\arena-final_0.xml</Output>
+      <Time>2009-03-09T01:54:16.317-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Arena\concrete.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\concrete_0.xnb</Output>
+      <Time>2009-03-09T01:54:16.71-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Arena\Terrain.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\Terrain_0.xnb</Output>
+      <Time>2009-03-09T01:54:19.259-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Arena\Sidepanels.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\Sidepanels_0.xnb</Output>
+      <Time>2009-03-09T01:54:18.068-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Arena\broken_concrete.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\broken_concrete_0.xnb</Output>
+      <Time>2009-03-09T01:54:16.321-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Arena\concrete2.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\concrete2_0.xnb</Output>
+      <Time>2009-03-09T01:54:16.713-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Arena\Doorway.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\Doorway_0.xnb</Output>
+      <Time>2009-03-09T01:54:17.448-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Arena\Stones.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\Arena\Stones_0.xnb</Output>
+      <Time>2009-03-09T01:54:19.208-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\Content\obj\Xbox 360\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedInstancingSample\bin\Xbox 360\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2008-10-10T18:42:32-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2008-10-10T18:43:28-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2008-10-10T18:43:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2008-10-10T18:48:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2008-10-10T18:48:50-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\bphelps\Desktop\Ionixx4\Final\Samples\SkinnedInstancingSample\SkinnedModelInstancingPipeline\bin\x86\Debug\InstancingSkinnedModelPipeline.dll</Key>
+        <Value>2009-03-17T12:17:30.618-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2008-11-14T23:56:46.1856-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

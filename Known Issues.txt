@@ -1,0 +1,4 @@
+-There are a bunch of compiler warnings when compiling the dwarf model. There are some crazy stuff in the dwarf mesh and some of the parts don't make it through (like the weapons and shields). I didn't pursue this too much - the main body parts came out and thats enough to demo skinned model instancing!
+You can disregard those errors, as they are a result of this particular model.
+
+-Move somewhat near the dwarves, and they'll start cheering. Move close to the dwarves, and they'll get so excited they'll start jumping in the air for you! This is by design =)

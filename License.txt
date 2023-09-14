@@ -1,0 +1,8 @@
+This software is provided AS-IS. There is no warranty, implied or otherwise, and you use this software at your own risk. By downloading and using this software, you agree that Ionixx Interactive, LLC is not responsible for any damages, monetary or otherwise.
+
+You may use and redistribute the source code in binary form as long as such distribution complies with this agreement. If any derived works from this source code are distributed in source code form, you must credit Ionixx Interactive, LLC as the original author.
+
+The included art assets are property of NVIDIA and are not licensed for redistribution. You must contact NVIDIA for permission to use or distribute the art assets.
+
+The source code is Copyright 2009 Ionixx Interactive, LLC
+
